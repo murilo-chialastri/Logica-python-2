@@ -29,5 +29,5 @@ l6 = [i for i in frutas if len(i) > 5]
 print(l6)
 
 #6
-l7 = ['fizz'  if i % 3 == 0 else i for i in range(20)]
+l7 = ['Fizz'  if i % 3 == 0 else i for i in range(20)]
 print(l7)
