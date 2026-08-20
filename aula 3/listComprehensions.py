@@ -31,3 +31,5 @@ print(l6)
 #6
 l7 = ['Fizz'  if i % 3 == 0 else i for i in range(21)]
 print(l7)
+
+# gere uma lista representando as coordenadas [x,y] para um grid 3x3
