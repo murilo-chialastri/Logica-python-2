@@ -6,11 +6,11 @@
 
 # l2 = [expressao for item in interavel]
 #1
-l2 = [i**2 for i in range(10)]
+l2 = [i**2 for i in range(11)]
 print(l2)
 
 #2
-l3 = [i for i in range(20) if i % 2 == 0]
+l3 = [i for i in range(21) if i % 2 == 0]
 print(l3)
 
 #3
@@ -29,5 +29,5 @@ l6 = [i for i in frutas if len(i) > 5]
 print(l6)
 
 #6
-l7 = ['Fizz'  if i % 3 == 0 else i for i in range(20)]
+l7 = ['Fizz'  if i % 3 == 0 else i for i in range(21)]
 print(l7)
