@@ -68,3 +68,19 @@ def transposta(matriz):
 matriz = [[1,9,3],[2,4,5],[0,0,0]]
 print(matriz)
 print(transposta(matriz))
+m = transposta(matriz)
+
+
+for i in range(len(matriz)):
+    for j in range(len(matriz[0])):
+        print(matriz[i][j],end=" ")
+    print("")
+
+for i in range(len(m)):
+    for j in range(len(m[0])):
+        print(m[i][j],end=" ")
+    print("")
+
+for i in range(len(m)):
+    for j in range(len(m[0])):
+        print(f'm[{i}][{j}] = {m[i][j]}')
