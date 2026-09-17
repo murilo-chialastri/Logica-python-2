@@ -13,6 +13,7 @@ existSegunda = c2 - c1
 print(existSegunda)
 
 naoRep = c1 ^ c2
+# noaRep = (c1 - c2) | (c2 - c1)
 # naoRep = (c1 | c2) - (c1 & c2)
 print(naoRep)
 print(naoRep)
