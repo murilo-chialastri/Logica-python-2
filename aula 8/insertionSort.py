@@ -1,19 +1,20 @@
 # l = [12,68,95,41,10,71]
-l = [10, 9, 8, 7]
+l = [10, 9, 8, 7,22, 3, 1]
 
 print(l)
 
 
 
 for i in range(1, len(l)):
-    aux = l[i]
+    chave = l[i]
     j = i - 1
-    while j >= 0 and l[j] > aux:
+    while j >= 0 and l[j] > chave:
         l[j + 1] = l[j]
         j = j - 1
-        print(l)
-    l[j + 1] = aux
-print(l)
+        print(f'dentro do while: {l}')
+    l[j + 1] = chave
+    print(f'no for: {l}')
+print(f'organizada: {l}')
 # def funcao(l, i):
 #     aux = l[i]
 #
